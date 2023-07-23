@@ -1,25 +1,282 @@
 <!DOCTYPE html>
-<html lang="en" >
-  <link rel="stylesheet" href="./index.css">
+<html lang="en">
+
 <head class="head">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./index.css">
   <title>Document</title>
-  <div class="navbar">
-    <div class="header">
-      <div class="nav-left">
-        <div class="head-logo">
-          <img src="./assets/head-logo.png" alt="">
-        </div>
-      </div>
-      <div class="nav-fill"></div>
-      <div class="nav-right"></div>
-    </div>
-    <div class="menu">
-    </div>
-  </div>
 </head>
 <body>
-  
+
 </body>
+<header>
+  <div class="navbar">
+    <div class="nav-logo border">
+      <div class="logo"></div>
+    </div>
+    <div class="nav-address border">
+      <div class="add-icon">
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+      <div class="add-content">
+        <p style="color: rgb(187, 187, 187); font-size: 0.8rem;">Hello</p>
+        <p style="font-size: 0.85rem; font-weight: bold; white-space:nowrap;">Select your address</p>
+      </div>
+    </div>
+    <div class="nav-search">
+      <select name="" id="" class="search-select">
+        <option value="">All</option>
+        <input class="search-input" placeholder="Search Amazon">
+      </select>
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass" style="color:#131921; height: 20px;"></i>
+      </div>
+    </div>
+    <div class="lang">
+      <img class="flag" src="./public/assets/Flag_of_India.svg.png" alt="flag-logo">
+      <p style="font-size: 0.98rem; font-weight: bold; margin-left:5px;">EN</p>
+      <i class="fa-solid fa-caret-down"
+        style="color:rgb(192, 192, 192); font-size: 10px; margin-top: 6px; margin-left: 2px;"></i>
+    </div>
+    <div class="sign-container">
+      <div>
+        <p style="color: rgb(255, 255, 255); font-size: 0.8rem;">Hello, sign in</p>
+        <p style="font-size: 0.85rem; font-weight: bold; white-space:nowrap;">
+          Account & Lists
+        </p>
+      </div>
+      <div class="signin-icon">
+        <i class="fa-solid fa-caret-down"
+          style="color:rgb(192, 192, 192); font-size: 10px; margin-top: 22px; margin-left: 3px;"></i>
+      </div>
+    </div>
+    <div class="returns-order">
+      <div>
+        <p style="color: rgb(255, 255, 255); font-size: 0.8rem;">Returns</p>
+        <p style="font-size: 0.85rem; font-weight: bold; white-space:nowrap;">
+          & Orders
+        </p>
+      </div>
+    </div>
+    <div class="cart-container">
+      <i class="fa-solid fa-cart-shopping" style="color: white; text-align: center;font-size: 26px;"></i>
+      <p style="font-size: 0.9rem; font-weight: bold; white-space:nowrap; margin-left: 5px; margin-top: 16px;">Cart</p>
+    </div>
+    <div style="width: 20px;">
+    </div>
+  </div>
+  <div class="menu-bar">
+    <div class="menu-bar-ops">
+      <p><i class="fa-solid fa-bars" style="margin: 0px 4px 0 3px;"></i>All</p>
+      <p>Amazon miniTv</p>
+      <p>Sell</p>
+      <p>Best Sellers</p>
+      <p>Today's Deals</p>
+      <p>Mobiles</p>
+      <p>New Releases</p>
+      <p>Customer Service</p>
+      <p>Prime</p>
+      <p>Electronics</p>
+      <p>Gift Ideas</p>
+      <p>Home & Kitchen</p>
+    </div>
+    <div class="menu-bar-add">
+      <img src="./public/assets/panel-add.jpg" alt="">
+    </div>
+  </div>
+</header>
+<div class="main-section">
+  <div class="prod-grids">
+    <div class="grid-item">
+      <p class="grid-item-header">Up to 70% Off | Clearance store</p>
+      <img class="grid-img" src="./public/assets/grid1.jpg" alt="">
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Offers on travel tickets</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Flight_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Get up to 2000 off on flight tickets</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Train_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Zero gateway fess on trains</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Bus_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Bus ticket booking</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/SW_186x116._SY116_CB600937888_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Products for your travel needs</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Revamp your home in style</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Sofa372x232_1_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Bedsheets, curtains & more</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Painting372x232_2_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Home Decoration</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/home-storace372x232_3_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Home Storage</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Lighting372x232_4_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Lighting solutions</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <div class="side-box"></div>
+      <div class="side-box"></div>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Appliances for your home</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Microwaves</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Refrigerators</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Air conditioners</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/186x116---wm._SY116_CB667322346_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Washing machines</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Revamp your home in style</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Sofa372x232_1_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Bedsheets, curtains & more</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Painting372x232_2_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Home Decoration</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/home-storace372x232_3_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Home Storage</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Lighting372x232_4_Low._SY116_CB670263840_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Lighting solutions</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Offers on travel tickets</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Flight_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Get up to 2000 off on flight tickets</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Train_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Zero gateway fess on trains</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/Bus_186x116._SY116_CB600937888.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Bus ticket booking</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/SW_186x116._SY116_CB600937888_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Products for your travel needs</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-item">
+      <p class="grid-item-header">Up to 60% off | Styles for men</p>
+      <div class="prod-sub-grid">
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/MF-1-186-116._SY116_CB636110853_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Clothing</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/MF-2-186-116._SY116_CB636110853_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Footwear</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/MF-3-186-116._SY116_CB636110853_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Watches</p>
+        </div>
+        <div class="sub-grid-item">
+          <img class="sub-grid-img" src="./public/assets/MF-4-186-116._SY116_CB636110853_.jpg" alt="">
+          <p style="font-size: 0.8rem; color:black; text-align: left;">Bags & luggage</p>
+        </div>
+      </div>
+      <p style="font-size: 0.8rem; color:#007185; font-weight:bold; text-align: left; margin-left: 12px;">See more</p>
+    </div>
+    <div class="grid-full">7</div>
+    <div class="grid-full">8</div>
+  </div>
+</div>
+<div class="footer">
+  <div class="back-top">
+    <p class="back-top-text">Back to top</p>
+  </div>
+  <div class="footer-menus">
+    <div class="f_m_grid">
+      <div class="f_m_menus">
+      </div>
+      <div class="f_m_menus">
+        <p class="f_m_head">Get to know Us</p>
+        <p class="f_m_menu">About Us</p>
+        <p class="f_m_menu">Careers</p>
+        <p class="f_m_menu">Press Releases</p>
+        <p class="f_m_menu">Amazon Science</p>
+      </div>
+      <div class="f_m_menus">
+        <p class="f_m_head">Connect with Us</p>
+        <p class="f_m_menu">Facebook</p>
+        <p class="f_m_menu">Twitter</p>
+        <p class="f_m_menu">Instagram</p>
+      </div>
+      <div class="f_m_menus">
+        <p class="f_m_head">Make Money with Us</p>
+        <p class="f_m_menu">Sell on Amazon</p>
+        <p class="f_m_menu">Sell under Amazon Accelerator</p>
+        <p class="f_m_menu">Protect and Build Your Brand</p>
+        <p class="f_m_menu">Amazon Global Selling</p>
+        <p class="f_m_menu">Become an Affliate</p>
+        <p class="f_m_menu">Fulfilment by Amazon</p>
+        <p class="f_m_menu">Amazon Global Selling</p>
+      </div>
+      <div class="f_m_menus">
+        <p class="f_m_head">Get to know Us</p>
+        <p class="f_m_menu">About Us</p>
+        <p class="f_m_menu">Careers</p>
+        <p class="f_m_menu">Press Releases</p>
+        <p class="f_m_menu">Amazon Science</p>
+      </div>
+      <div class="f_m_menus">
+      </div>
+    </div>
+  </div>
+</div>
 </html>
