@@ -183,12 +183,45 @@ body {
   width: 350px;
 }
 
-.side-box {
-  background-color: #232f3ea6;
-  border: 2px solid black;
-  height: 200px;
-  width: 280px;
-  margin: 10px;
+.side-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.side-box1 {
+  height: 130px;
+  width: 350px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.side-box1-content {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.side-box1-button {
+  width: calc(100% - 40px);
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  background-color: #fcd200;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+
+}
+
+.side-box2 {
+  height: 250px;
+  width: 300px;
+  background-image: url("./public/assets/Laptops-Sept2019._CB436595915_.jpg");
 }
 
 .grid-full {
@@ -237,6 +270,24 @@ body {
 .sub-grid-img {
   object-fit: cover;
   width: 145px;
+  height: 100px;
+}
+
+.sub-grid-full {
+  display: grid;
+  grid-template-columns: minmax(20px, auto);
+  grid-auto-rows: repeat(1, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 10px;
+  height: 300px;
+}
+
+.s_g_f_items {
+  
+}
+
+.grid_f_img {
   height: 100px;
 }
 
